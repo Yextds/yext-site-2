@@ -1,0 +1,20 @@
+<!--Nav-->
+<div class="fixed top-0 left-0 w-full z-50 bg-black bg-opacity-20">    
+    <header class="max-w-full mx-auto flex items-center flex-wrap w-full wrap px-8 py-3 md:py-6">
+        <div class=""><img src="../images/logo.png"></div>
+        <input type="checkbox" name="" id="menu" class="absolute top-0 left-0 z-10 opacity-0 invisible">
+        <label for="menu" class="ml-auto lg:hidden"><svg width="24px" height="24px" fill="#fff" viewBox="0 0 24 24"><path d="M21 13H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1s-.4 1-1 1zm0-8H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1s-.4 1-1 1zm0 16H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1s-.4 1-1 1z"></path></svg></label>
+        <ul class="fixed lg:relative bg-blackLight lg:bg-transparent top-0 left-0 bottom-0 py-10 lg:py-0 px-8 lg:px-0 flex lg:items-center flex-col lg:flex-row w-full lg:w-auto ml-auto z-10 transform -translate-x-full lg:translate-x-0 transition-all duration-400">
+            <li class="absolute top-4 right-8 lg:hidden"><label for="menu"><svg style="transform:scale(1.5);stroke-width:1px" width="18px" height="18px" fill="#fff" viewBox="-6 -6 26 26"><path d="M12.12.36L7 5.48 1.88.36.44 1.88 5.48 7 .44 12.12l1.44 1.44L7 8.52l5.12 5.04 1.52-1.44L8.52 7l5.12-5.12z"></path></svg></label></li>
+            <li class="lg:ml-7 border-b lg:border-none border-white border-opacity-20"><a href="#" class="leading-12 py-3 lg:py-0 inline-block text-white">Home</a></li>
+            <li class="lg:ml-7 border-b lg:border-none border-white border-opacity-20"><a href="#about" class="leading-12 py-3 lg:py-0 inline-block text-white">About Us</a></li>
+            <li class="lg:ml-7 border-b lg:border-none border-white border-opacity-20"><a href="#" class="leading-12 py-3 lg:py-0 inline-block text-white">Features</a></li>
+            <li class="lg:ml-7 border-b lg:border-none border-white border-opacity-20"><a href="#" class="leading-12 py-3 lg:py-0 inline-block text-white">Design</a></li>
+            <li class="lg:ml-7 border-b lg:border-none border-white border-opacity-20"><a href="#" class="leading-12 py-3 lg:py-0 inline-block text-white">Review</a></li>
+            <li class="lg:ml-7 border-b lg:border-none border-white border-opacity-20"><a href="#" class="leading-12 py-3 lg:py-0 inline-block text-white">Shop</a></li>
+        </ul>
+    </header>
+</div>
+<style type="text/css">
+    input#menu:checked ~ ul{transform: translateX(0);}
+</style>

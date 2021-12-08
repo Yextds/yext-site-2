@@ -1,0 +1,36 @@
+---
+{
+ "urlFormat": "index.html"
+}
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> {{global.name}}</title>
+  <meta name="description" content="{{global.name}}">
+  {{>head}}
+
+  <!--Replace with your tailwind.css once created-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+
+<body class="bg-white text-gray-600 font-montserrat leading-normal text-base tracking-normal">
+  {{>navbar}}
+  {{>slider}}
+  {{>home-about-content}}
+  {{>home-devices}}
+  {{>home-section-2}}
+  {{>home-instruction}}
+  {{>home-vibrant}}
+  {{>home-headephone-design}}
+
+  {{>footer}}
+
+</body>
+</html>

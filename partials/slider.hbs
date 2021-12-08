@@ -1,0 +1,43 @@
+<div class="inline-block w-full align-bottom">
+	<div class="relative w-full h-screen overflow-hidden">
+		<input type="radio" id="slide1" name="slider" class="absolute top-0 left-0 z-10 opacity-0 invisible" checked>
+		<label class="absolute top-0 right-0 h-full w-full block overflow-hidden transition-all duration-700 transform translate-x-full label-checked:translate-x-0">
+			<img class="w-full max-w-full h-full object-cover object-right-top" class="object-cover object-center" src="../images/agency-slider-01.jpg">
+			<div class="w-full max-w-screen-2xl absolute top-1/2 transform -translate-y-1/2 -translate-x-1/2 left-1/2 z-10 px-8 2xl:px-4 text-white">
+				<h2 class="text-4xl lg:text-8xl max-w-2xl font-bold mb-5">NEW LEVEL <br>OF SOUND EXPERIENCE.</h2>
+				<p class="text-lg leading-7 max-w-2xl mb-10">Lorem Ipsum is simply dummy text of printing and industry. Lorem Ipsum the industry's dummy text ever since.</p>
+				<a href="#" class="border border-white bg-white text-black px-5 sm:px-7 py-2 rounded-full uppercase text-xs sm:text-sm inline-block hover:opacity-80">Shop Now</a>
+				<a href="#" class="border border-white bg-transparent text-white px-5 sm:px-7 py-2 rounded-full uppercase text-xs sm:text-sm inline-block ml-3 sm:ml-5 hover:opacity-80">Read More</a>
+			</div>
+		</label>
+		<input type="radio" id="slide2" name="slider" class="absolute top-10 left-0 z-10 opacity-0 invisible">
+		<label class="absolute top-0 right-0 h-full w-full block overflow-hidden transition-all duration-700 transform translate-x-full">
+			<img class="w-full max-w-full h-full object-cover object-right-top" src="../images/agency-slider-02.jpg">
+			<div class="w-full max-w-screen-2xl absolute top-1/2 transform -translate-y-1/2 -translate-x-1/2 left-1/2 z-10 px-8 2xl:px-4 text-white">
+				<h2 class="text-4xl lg:text-8xl max-w-2xl font-bold mb-5">NEW LEVEL <br>OF SOUND EXPERIENCE.</h2>
+				<p class="text-lg leading-7 max-w-2xl mb-10">Lorem Ipsum is simply dummy text of printing and industry. Lorem Ipsum the industry's dummy text ever since.</p>
+				<a href="#" class="border border-white bg-white text-black px-5 sm:px-7 py-2 rounded-full uppercase text-xs sm:text-sm inline-block hover:opacity-80">Shop Now</a>
+				<a href="#" class="border border-white bg-transparent text-white px-5 sm:px-7 py-2 rounded-full uppercase text-xs sm:text-sm inline-block ml-3 sm:ml-5 hover:opacity-80">Read More</a>
+			</div>
+		</label>
+		<input type="radio" id="slide3" name="slider" class="absolute top-20 left-0 z-10 opacity-0 invisible">
+		<label class="absolute top-0 right-0 h-full w-full block overflow-hidden transition-all duration-700 transform translate-x-full">
+			<img class="w-full max-w-full h-full object-cover object-right-top" src="../images/agency-slider-03.jpg">
+			<div class="w-full max-w-screen-2xl absolute top-1/2 transform -translate-y-1/2 -translate-x-1/2 left-1/2 z-10 px-8 2xl:px-4 text-white">
+				<h2 class="text-4xl lg:text-8xl max-w-2xl font-bold mb-5">NEW LEVEL <br>OF SOUND EXPERIENCE.</h2>
+				<p class="text-lg leading-7 max-w-2xl mb-10">Lorem Ipsum is simply dummy text of printing and industry. Lorem Ipsum the industry's dummy text ever since.</p>
+				<a href="#" class="border border-white bg-white text-black px-5 sm:px-7 py-2 rounded-full uppercase text-xs sm:text-sm inline-block hover:opacity-80">Shop Now</a>
+				<a href="#" class="border border-white bg-transparent text-white px-5 sm:px-7 py-2 rounded-full uppercase text-xs sm:text-sm inline-block ml-3 sm:ml-5 hover:opacity-80">Read More</a>
+			</div>
+		</label>
+	</div>
+	<div class="absolute bottom-4 left-0 w-full text-center">
+		<label for="slide1" class="w-3 h-3 mx-1 border border-white bg-white inline-block rounded-full cursor-pointer"></label>
+		<label for="slide2" class="w-3 h-3 mx-1 border border-white inline-block rounded-full"></label>
+		<label for="slide3" class="w-3 h-3 mx-1 border border-white inline-block rounded-full"></label>
+	</div>
+</div>
+
+<style type="text/css">
+	input[name="slider"]:checked + label{transform: translateX(0);}
+</style>
